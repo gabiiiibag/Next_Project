@@ -1,5 +1,7 @@
 import SideNav from '@/app/ui/dashboard/sidenav';
  
+export const experimental_ppr = true /**O Next.js pré-renderizará as partes estáticas de sua rota e adiará as partes dinâmicas até que o usuário as solicite. */
+
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <div className="flex h-screen flex-col md:flex-row md:overflow-hidden">
